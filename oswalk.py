@@ -1,3 +1,9 @@
+'''
+OS walk helps in traversing child directories and 
+returns top directory, current directory and list of files in the current directory
+
+'''
+
 import os
 files = []
 def walk(top, topdown=True, onerror=None, followlinks=False):
